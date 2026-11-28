@@ -1,21 +1,39 @@
 # Mass-Spring-Damper System
 
-## Purpose
+## Objective
+To model and analyze a mechanical system using MATLAB.
+## Project Scope
+Physical modeling, analytical solutions and control system design.
 
-To learn and analyze the mathematical model of systems using MATLAB and Simulink.
+o
 
-## Scope
+##Mathematical Modeling
 
-* Physical system modeling
-* Differential equation derivation
-* Transfer function representation
-* State-space representation
-* Time-domain response analysis
-* System stability analysis
-* PID controller design
+### Undamped Mass-Spring System
 
-## Tools
+The system consists of a mass connected to a linear
+spring on a frictionless horizontal surface.
 
-* MATLAB
-* Simulink
-* Github
+According to Newton's second law:
+
+$$
+\sum F = m\ddot{x}
+$$
+
+According to Hooke's law:
+
+$$
+F_s = -kx
+$$
+
+Applying Newton's second law to the system:
+
+$$
+F(t)-kx = m\ddot{x}
+$$
+
+Rearranging the equation:
+
+$$
+\boxed{m\ddot{x}+kx=F(t)}
+$$
