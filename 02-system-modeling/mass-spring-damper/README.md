@@ -1,10 +1,10 @@
-Mass-Spring-Damper System
+# Mass-Spring-Damper System
 
-Objective
+## Purpose
 
-To derive, simulate, and analyze the mathematical model of a mass-spring-damper system using MATLAB and Simulink.
+To learn and analyze the mathematical model of systems using MATLAB and Simulink.
 
-Project Scope
+## Scope
 
 * Physical system modeling
 * Differential equation derivation
@@ -14,12 +14,8 @@ Project Scope
 * System stability analysis
 * PID controller design
 
-Tools
+## Tools
 
 * MATLAB
 * Simulink
-* Git and GitHub
-
-Project Status
-
-In development.
+* Github
